@@ -8,18 +8,20 @@ public class CartService {
     public List<Item> getShoppingItems() {
         List<Item> lstItems = new ArrayList<>();
 
-        Item itm = new Item();
-        itm.setItemName("Prada Bag");
-        itm.setQuantity(1);
-        lstItems.add(itm);
+        Item itm1 = new Item();
+        itm1.setItemName("Prada Bag");
+        itm1.setQuantity(1);
+        lstItems.add(itm1);
 
-        itm.setItemName("LV Tot Bag");
-        itm.setQuantity(3);
-        lstItems.add(itm);
+        Item itm2 = new Item();
+        itm2.setItemName("LV Tot Bag");
+        itm2.setQuantity(3);
+        lstItems.add(itm2);
 
-        itm.setItemName("Chanel Wallet");
-        itm.setQuantity(5);
-        lstItems.add(itm);
+        Item itm3 = new Item();
+        itm3.setItemName("Chanel Wallet");
+        itm3.setQuantity(5);
+        lstItems.add(itm3);
 
         return lstItems;
     }
