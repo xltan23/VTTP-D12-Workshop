@@ -23,6 +23,26 @@ public class CartService {
         itm3.setQuantity(5);
         lstItems.add(itm3);
 
+        Item itm = new Item();
+        itm.setItemName("MacBook");
+        itm.setQuantity(10);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("Prada Shoes");
+        itm.setQuantity(4);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("Prada Lanyard");
+        itm.setQuantity(17);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("Prada Tie");
+        itm.setQuantity(12);
+        lstItems.add(itm);
+
         return lstItems;
     }
 }
